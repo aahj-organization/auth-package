@@ -1,6 +1,6 @@
 {
   "name": "@aahj-organization/auth",
-  "version": "1.0.1-rc.3",
+  "version": "1.0.1-rc.4",
   "description": "authentication includes: login, forgot and reset password",
   "main": "index.js",
   "scripts": {
