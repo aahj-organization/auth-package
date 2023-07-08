@@ -1,0 +1,31 @@
+{
+  "name": "@aahj-organization/auth",
+  "version": "1.0.1-rc.0",
+  "description": "authentication includes: login, forgot and reset password",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "release": "standard-version",
+    "create:tag": "git push --follow-tags",
+    "npm:publish":"npm publish"
+  },
+  "keywords": [
+    "authentication",
+    "auth"
+  ],
+  "author": "teciz",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.21",
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
