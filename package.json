@@ -1,6 +1,6 @@
 {
   "name": "@aahj-organization/auth",
-  "version": "1.0.1-rc.0",
+  "version": "1.0.1-rc.1",
   "description": "authentication includes: login, forgot and reset password",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start:dev": "nodemon index.js",
     "release": "standard-version",
     "create:tag": "git push --follow-tags",
-    "npm:publish":"npm publish"
+    "npm:publish": "npm publish"
   },
   "keywords": [
     "authentication",
